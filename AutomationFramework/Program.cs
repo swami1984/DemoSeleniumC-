@@ -47,6 +47,8 @@ namespace AutomationFramework
             LoginPageFactory loginPageScreen = new LoginPageFactory();
             HomePageFactory HomePage = loginPageScreen.LoginPage("tswamy2009@gmail.com", "qspider");
 
+            Console.WriteLine("Test Executed");
+
             // HomePage.NavigateWomensPage();
         }
 
